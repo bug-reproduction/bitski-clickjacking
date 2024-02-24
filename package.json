@@ -30,5 +30,8 @@
 		"test:unit": "vitest",
 		"lint": "prettier --check .",
 		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"bitski-provider": "^3.5.0"
 	}
 }
