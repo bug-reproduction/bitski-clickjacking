@@ -23,6 +23,9 @@ devDependencies:
   prettier-plugin-svelte:
     specifier: ^3.1.2
     version: 3.2.1(prettier@3.2.5)(svelte@4.2.12)
+  set-defaults:
+    specifier: ^0.0.2
+    version: 0.0.2
   svelte:
     specifier: ^4.2.7
     version: 4.2.12
@@ -681,6 +684,11 @@ packages:
       periscopic: 3.1.0
     dev: true
 
+  /commander@10.0.1:
+    resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
+    engines: {node: '>=14'}
+    dev: true
+
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
@@ -1291,6 +1299,13 @@ packages:
 
   /set-cookie-parser@2.6.0:
     resolution: {integrity: sha512-RVnVQxTXuerk653XfuliOxBP81Sf0+qfQE73LIYKcyMYHG94AuH0kgrQpRDuTZnSmjpysHmzxJXKNfa6PjFhyQ==}
+    dev: true
+
+  /set-defaults@0.0.2:
+    resolution: {integrity: sha512-xPlIV4pUxF9BDOXqds9RL6BxJmzDfywBl98qHPD4D9rJjBGpLosYJerfI3xU0HY7BDmHTUkfHAplfdN7PamBFA==}
+    hasBin: true
+    dependencies:
+      commander: 10.0.1
     dev: true
 
   /shebang-command@2.0.0:
